@@ -10,9 +10,9 @@
   --font-bold: 700;
 
   /*===== Colors =====*/
-  --dark-color: #141414;
-  --dark-color-light: #8a8a8a;
-  --dark-color-lighten: #f2f2f2;
+  --dark-color: #2B5051;
+  --dark-color-light: #3F6768;
+  --dark-color-lighten: #f4fce7;
   --white-color: #fff;
 
   /*===== Font and typography =====*/
@@ -229,7 +229,7 @@ img {
   position: absolute;
   top: 1.5rem;
   max-width: initial;
-  width: 220px;
+  width: 350px;
   /* transform: var(--rotate-img); */
 }
 
@@ -330,6 +330,8 @@ img {
 
 .juice__name {
   margin-bottom: var(--mb-1);
+  text-align: center;
+  line-height: 1.1rem;
 }
 
 .juice__price {
@@ -378,7 +380,8 @@ img {
   position: absolute;
   top: 0;
   right: 0;
-  width: 230px;
+  width: 280px;
+  border-radius: .5rem;
 }
 
 .collection__name {
@@ -638,7 +641,7 @@ img {
   }
 
   .home__img {
-    width: 470px;
+    width: 570px;
     top: 3.5rem;
     right: 0;
     left: -3rem;
@@ -670,6 +673,10 @@ img {
 
   .home__container {
     column-gap: 8rem;
+  }
+
+  .home__img {
+    width: 680px;
   }
 
   .collection__container {
